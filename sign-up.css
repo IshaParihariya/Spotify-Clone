@@ -1,0 +1,132 @@
+body{
+    background-color:black;
+    font-family: Arial;
+}
+.sign-up{
+    height: 740px;
+    width: 355px;
+    background-color:black;
+    align-items: center;
+    justify-self: center;
+}
+.start{
+    display: inline;
+    color: white;
+}
+.icon{
+    justify-content: center;
+}
+#spotify-icon{
+    font-size: 3rem;
+    padding : 20px;
+   padding-left: 145px;
+}
+.sign-up-l{
+    font-size: 3rem;
+    font-weight:bold ;
+    justify-self: center;
+}
+.sign-up-1-1{
+    padding-left:35px
+}
+.email{
+    font-weight: bold;
+}
+#email-box{
+    height: 40px;
+    width: 348px;
+    border-radius: .50rem;
+    border: solid 1.5px white;
+    margin-top: 5px;
+    color: white;
+    background-color: black;
+}
+.phone-no{
+    font-size: .90rem;
+    font-weight:400;
+    margin-top: 15px;
+}
+.phone-no-1{
+    color: rgb(59, 172, 59);
+}
+.next{
+    width: 352px;
+    justify-self: center;
+    height: 50px;
+    background-color: rgb(59, 172, 59);
+    margin-top: 13px;
+    border-radius: 8rem;
+    color: black;
+}
+.next-1{
+    justify-self: center;
+   padding-top: 15px;
+   font-weight: bold;
+}
+.google{
+    height: 50px;
+    width: 352px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+     border-radius: 8rem;
+     border: solid 1px white;
+}
+.g-sign-up{
+    font-weight: bolder;
+}
+.apple{
+    height: 50px;
+    width: 352px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-top: 8px;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+     border-radius: 8rem;
+     border: solid 1px white;
+}
+.add{
+    margin-top: 60px;
+}
+.acc{
+    display: flex;
+    justify-self: center;
+}
+.acc-1{
+    color: rgb(190, 185, 185);
+}
+.log-in{
+    font-weight: bold;
+    color: white;
+}
+.add-info{
+    margin-top: 20px;
+     color :rgb(190, 185, 185);
+}
+.add-info-1{
+    font-size: .80rem;
+    justify-self: center;
+}
+.last{
+    justify-self: center;
+    font-size: .75rem;
+}
+.last-1{
+    color :rgb(190, 185, 185);
+}
+.back{
+    margin-top: 30px;
+    font-size: .85rem;
+    justify-self: center;
+}
+.back-1{
+    color: white;
+    font-weight: 100;
+}

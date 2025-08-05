@@ -2,12 +2,13 @@ body{
     background-color: black;
     color: white;
     border: border-box;
+    font-family: Arial;
 }
 
 .navbar{
     display: flex;
     height: 60px;
-    width: 100%;
+    width: 1510px;
     background-color:black;
 }
 
@@ -19,11 +20,11 @@ gap: 20px;
 }
 
 #navbar-icon-spotify{
-font-size: 2.3rem;
+font-size: 2.1rem;
 }
 
 #navbar-icon-home{
-    font-size: 2.3rem;
+    font-size: 2.1rem;
 }
 
 .navbar-search{
@@ -33,12 +34,12 @@ width: 525px;
 height: 45px;
 justify-content: space-evenly;
 align-items: center;
-background-color: rgb(73, 70, 70);
+background-color: rgb(199, 182, 182);
 color: white;
 }
 
 .navbar-search-icon{
-    font-size: 4rem;
+    font-size: 5rem;
 }
 
 #navbar-searchbox{
@@ -47,7 +48,7 @@ color: white;
 }
 
 #navbar-browse-icon{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 .navbar-opt{
@@ -55,16 +56,23 @@ color: white;
     justify-content: space-evenly;
     margin-left: 250px;
     gap: 10px;
+    font-size: .98rem;
+}
+.sign-up1{
+    font-size: .85rem;
+    color: white;
+    font-weight: bold;
 }
 
 .navbar-opt-1{
     display: flex;
-    gap: 20px;
+    gap: 17px;
     align-items: center;
+    font-size: .85rem;
 }
 
 #navbar-download-icon{
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-left: 60px;
 
 }
@@ -72,6 +80,8 @@ color: white;
     height: 50px;
     width: 120px;
     border-radius: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
 }
 
 .left-part{
@@ -107,18 +117,20 @@ color: white;
     color: black;
     border-radius: 2rem;
     height: 40px;
-    width: 120px;
+    width: 130px;
+    font-weight: bold;
 }
 
 .lib-1{
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .lib-list{
-    display: flex;
-    gap: 10px;
-    font-size: .70rem;
+    justify-content: space-evenly;
+    gap: 5px;
+    font-size: .80rem;
     margin-top: 45px;
-    color: bisque;
+    color: rgb(199, 182, 182);
+    display: flex;
 }
 
 .lib-1-eng{
@@ -130,18 +142,23 @@ color: white;
     text-align: center;
     align-content: center;
     margin-top: 30px;   
+    font-weight: bold;
+    font-size: .80rem;
 }
 .main{
     display: flex;
+    height: 600px;
+   width: 1110px;
 }
 .scroll
 {
     overflow-y: scroll;
-    overflow-x: auto;
+    height: 600px;
 }
 .right-part{
-    height: 100%;
+    height: auto;
     width: 100%;
+
 }
 .trending-songs{
     display: flex;
@@ -165,12 +182,16 @@ color: white;
 .songs-1-artist{
     margin-left: 20px;
     color: white;
+    font-size: .90rem;
+    color: rgb(199, 182, 182);
 }
 .songs-1-names{
     margin-left: 20px;
      margin-top: 10px;
      font-size: 1.3rem;
-     color: white';
+     color: white;
+     font-size: .95rem;
+     font-weight: bold;
 }
 .popular-artist{
     display: flex;
@@ -196,21 +217,24 @@ color: white;
 }
 .artist-name{
     color: white;
-    font-size: 1.3rem;
+    font-size: .95rem;
     margin: 15px;
+    font-weight: bold;
 }
 .A{
     margin-left: 16px;
-    color: white;
+    color: rgb(199, 182, 182);
+    font-size: .90rem;
 }
 .albums{
     height: auto;
     width: 100%;
     justify-content: space-evenly;
-    overflow-y: auto;
+    
 }
 .albums-1{
     display: flex;
+    overflow-y: auto;
 }
 .album-song{
   height: 330px;
@@ -227,13 +251,15 @@ color: white;
 .album-name{
      margin-left: 20px;
      margin-top: 10px;
-     font-size: 1.3rem;
+     font-size: .95rem;
      color: white;
+     font-weight: bold;
 }
 .album-artist{
     margin-left: 20px;
-    color: white;
+    color: rgb(199, 182, 182);
     margin-top: 20px;
+    font-size: .90rem;
 }
 .last-1{
     display: flex;
@@ -246,10 +272,12 @@ color: white;
 }
 .last-1-start{
     font-weight:bold;
-    font-size: 1.2rem;
+    font-size: .95rem;
 }
 .last-1-list{
     margin-top: 20px;
+    font-size: .93rem;
+    color: rgb(199, 182, 182);
 }
 .last-logo{
     display: flex;
@@ -259,13 +287,13 @@ color: white;
     font-size: 2rem;
 }
 .last-2{
-    color: aliceblue;
+    color: rgb(199, 182, 182);
     margin: 60px;
     font-size: .90rem;
 }
 .end{
-    height: 50px;
-    width: 100%;
+    height: 40px;
+    width: 1470px;
     background-color: pink;
     padding: 20px;
     border-radius: 1rem;
@@ -275,22 +303,23 @@ color: white;
 }
 .end-pre{
     font-weight: bold;
-    font-size: 1.1rem;
+    font-size: .90rem;
 }
 .end-pre-1{
     margin-top: 5px;
-    font-size: 1rem;
+    font-size: .85rem;
 }
 .end-2{
-    height: 60px;
-    width: 200px;
+    height: 30px;
+    width: 170px;
     background-color: white;
     color: black;
     border-radius: 2rem;
+    border: solid black;
 }
 .sign-in{
    font-weight: bold;
-   font-size: 1.3rem;
-   padding:18px;
-   padding-left: 40px;
+   font-size: 1rem;
+  padding: 5px;
+  padding-left: 40px;
 }
