@@ -1,0 +1,199 @@
+body
+{
+    background-color: rgb(36, 36, 36);;
+    color: white;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.log-in
+{
+    width: 700px;
+    height: 800px;
+    background-color: rgb(23, 23, 23);;
+    color: white;
+    justify-self: center;
+    margin-top: 20px;
+    border-radius: .3rem;
+}
+#spotify-icon
+{
+    font-size: 2.2rem;
+}
+.spotify-i
+{
+    justify-self: center;
+}
+.upper
+{
+    justify-items: center;
+}
+.log-in-l
+{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-top: 8px;
+}
+.block{
+    margin-top: 30px;
+}
+.google
+{
+ display: flex;
+ height: 50px;
+ width: 350px;
+ border: solid 0.2px white;
+ border-radius: 3rem;
+ justify-content: center;
+ align-self: center;
+ font-weight: bold;
+ margin-top: 10px;
+ color: aliceblue;
+ font-size: .93rem;
+}
+#google-icon
+{
+    font-size: 1.3rem;
+    margin-top: 12px;
+}
+.g-log-in{
+    align-self: center;
+}
+.facebook
+{
+    display: flex;
+   height: 50px;
+ width: 350px;
+ border: solid 0.2px white;
+ border-radius: 3rem;
+ justify-content: center;
+ align-self: center;
+  font-weight: bold;
+   color: aliceblue;
+   margin-top: 10px;
+    font-size: .93rem;
+}
+#facebook-icon
+{
+    font-size: 1.3rem;
+    margin-top: 13px;
+    color: #1877F2;
+}
+.apple
+{
+    display: flex;
+     height: 50px;
+ width: 350px;
+ border: solid 0.2px white;
+ border-radius: 3rem;
+ justify-content: center;
+ align-self: center;
+  font-weight: bold;
+   margin-top: 10px;
+    color: aliceblue;
+     font-size: .93rem;
+}
+#apple-icon
+{
+    font-size: 1.5rem;
+    margin-top: 12px;
+}
+.phone-no
+{
+    height: 50px;
+ width: 350px;
+ border: solid 0.2px white;
+ border-radius: 3rem;
+  font-weight: bold;
+   margin-top: 10px;
+   color:  aliceblue;
+}
+.phone-no-text
+{
+    align-self: center;
+    justify-self: center;
+    margin-top: 13px;
+     font-size: .93rem;
+}
+.lower
+{
+    margin-top: 70px;
+}
+.email
+{
+    font-weight: bold;
+     margin-left: 170px;
+}
+
+#e-box
+{
+    margin-top:10px; 
+    color: white;
+    background-color: black;
+    height: 50px;
+ width: 350px;
+    border: solid 0.2px white;
+    border-radius: .3rem;
+    color: aliceblue;
+}
+.e-text
+{
+    font-size: .85rem;
+}
+.continue{
+   height: 50px;
+ width: 350px;
+ border-radius: 3rem;
+ border: solid 0.2px;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-left: 170px;
+  background-color:  rgb(59, 172, 59);
+  color:  aliceblue;
+}
+.cont-text
+{
+   justify-self: center;
+   margin-top: 13px;
+   color: black;
+   font-size: .93rem;
+}
+.acc
+{
+    margin-top: 30px;
+    justify-self: center;
+    display: flex;
+}
+.acc-text
+{
+    color:  rgb(190, 185, 185);
+    font-size: .9rem;
+}
+#s-text
+{
+    color: white;
+    margin-left: 6px;
+    font-size: .9rem;
+}
+.pnt
+{
+    display: flex;
+    height: 80px;
+    width: auto;
+    background-color:rgb(23, 23, 23);;
+    justify-content: center;
+    align-items: center;
+    font-size: .8rem;
+    color:  rgb(190, 185, 185);
+    margin-top: 25px;
+}
+.privacy
+{
+    color:  rgb(190, 185, 185);
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.terms
+{
+     color:  rgb(190, 185, 185);
+      margin-left: 2px;
+    margin-right: 2px;
+}
